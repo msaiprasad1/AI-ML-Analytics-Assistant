@@ -1,6 +1,12 @@
 # ExcelML-ChatBot
 
+[![GitHub](https://img.shields.io/github/license/msaiprasad1/ExcelML-ChatBot)](https://github.com/msaiprasad1/ExcelML-ChatBot/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.35+-red.svg)](https://streamlit.io/)
+
 A powerful chat-driven machine learning assistant that analyzes Excel files and generates comprehensive reports with natural language processing.
+
+🔗 **GitHub Repository**: https://github.com/msaiprasad1/ExcelML-ChatBot
 
 ## ✨ Features
 
@@ -13,39 +19,48 @@ A powerful chat-driven machine learning assistant that analyzes Excel files and 
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### Option 1: Clone from GitHub
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/msaiprasad1/ExcelML-ChatBot.git
+cd ExcelML-ChatBot
 ```
 
-### 2. Set Up Environment
+### Option 2: Download ZIP
 
-Create a `.env` file with your OpenAI API key:
+Download the project as a ZIP file from GitHub and extract it.
 
-```bash
-OPENAI_API_KEY=your_openai_api_key_here
-```
+### Installation Steps
 
-### 3. Run the Application
+1. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Option A: Streamlit Interface (Recommended for beginners)**
-```bash
-streamlit run streamlit_app.py
-```
-Open: http://localhost:8501
+2. **Set Up Environment**
+   ```bash
+   cp .env.example .env
+   # Edit .env file and add your OpenAI API key
+   ```
 
-**Option B: FastAPI Interface (REST API)**
-```bash
-python main.py
-```
-Open: http://127.0.0.1:8000
+3. **Run the Application**
+   
+   **Option A: Streamlit Interface (Recommended for beginners)**
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+   Open: http://localhost:8501
+   
+   **Option B: FastAPI Interface (REST API)**
+   ```bash
+   python main.py
+   ```
+   Open: http://127.0.0.1:8000
 
-### 4. Test the System
-
-```bash
-python test_system.py
-```
+4. **Test the System**
+   ```bash
+   python test_system.py
+   ```
 
 ## 📁 Project Structure
 
