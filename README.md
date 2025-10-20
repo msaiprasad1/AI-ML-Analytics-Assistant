@@ -1,21 +1,22 @@
-# AI-ML-Excel-ChatBot
+# AI-ML-Analytics-Assistant
 
-[![GitHub](https://img.shields.io/github/license/msaiprasad1/AI-ML-Excel-ChatBot)](https://github.com/msaiprasad1/AI-ML-Excel-ChatBot/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/msaiprasad1/AI-ML-Analytics-Assistant)](https://github.com/msaiprasad1/AI-ML-Analytics-Assistant/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.35+-red.svg)](https://streamlit.io/)
 [![AI](https://img.shields.io/badge/AI-Powered-green.svg)](https://openai.com/)
 [![ML](https://img.shields.io/badge/ML-Models-orange.svg)](https://scikit-learn.org/)
+[![Analytics](https://img.shields.io/badge/Analytics-Advanced-purple.svg)](https://pandas.pydata.org/)
 
-An intelligent AI-powered machine learning assistant that analyzes Excel files through natural language conversations and generates comprehensive reports.
+An intelligent AI-powered machine learning analytics assistant that processes data files through natural language conversations and generates comprehensive insights using advanced ML algorithms.
 
-🔗 **GitHub Repository**: https://github.com/msaiprasad1/AI-ML-Excel-ChatBot
+🔗 **GitHub Repository**: https://github.com/msaiprasad1/AI-ML-Analytics-Assistant
 
 ##  Features
 
 - **Natural Language Interface**: Chat naturally with your data (e.g., "analyze this dataset," "run linear regression," "show me feature correlation")
 - **Automated EDA**: Comprehensive exploratory data analysis with visualizations
 - **ML Modeling**: Multiple regression models (Linear, Ridge, Lasso, Random Forest)
-- **Excel Integration**: Results automatically written to organized Excel sheets with charts and formatting
+- **Data Integration**: Results automatically written to organized reports with charts and formatting
 - **Dual Web Interfaces**: Both FastAPI and Streamlit interfaces for different use cases
 - **Real-time Analysis**: Instant results with progress indicators
 
@@ -24,8 +25,8 @@ An intelligent AI-powered machine learning assistant that analyzes Excel files t
 ### Option 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/msaiprasad1/AI-ML-Excel-ChatBot.git
-cd AI-ML-Excel-ChatBot
+git clone https://github.com/msaiprasad1/AI-ML-Analytics-Assistant.git
+cd AI-ML-Analytics-Assistant
 ```
 
 ### Option 2: Download ZIP
@@ -67,14 +68,14 @@ Download the project as a ZIP file from GitHub and extract it.
 ##  Project Structure
 
 ```
-AI-ML-Excel-ChatBot/
+AI-ML-Analytics-Assistant/
 │
 ├── main.py                 # FastAPI web application
 ├── streamlit_app.py        # Streamlit web interface
 ├── chat_agent.py          # LangChain + LLM integration
 ├── eda.py                 # Exploratory Data Analysis pipeline
 ├── modeling.py            # Machine Learning models
-├── excel_writer.py        # Excel output with formatting
+├── excel_writer.py        # Data output with formatting
 ├── create_sample_data.py  # Sample dataset generator
 ├── test_system.py         # Test suite
 ├── demo.py               # Demo script
@@ -88,7 +89,7 @@ AI-ML-Excel-ChatBot/
 
 ## Example Queries
 
-Try these natural language queries with your uploaded Excel files:
+Try these natural language queries with your uploaded data files:
 
 ### Exploratory Data Analysis
 - "Run EDA on this dataset"

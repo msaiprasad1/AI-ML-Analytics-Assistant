@@ -15,7 +15,7 @@ from datetime import datetime
 
 # Page configuration
 st.set_page_config(
-    page_title="AI-ML-Excel-ChatBot",
+    page_title="AI-ML-Analytics-Assistant",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -62,11 +62,11 @@ st.markdown("""
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🤖 AI-ML-Excel-ChatBot</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🤖 AI-ML-Analytics-Assistant</h1>', unsafe_allow_html=True)
     st.markdown("""
     <div class="info-box">
-        <strong>Welcome!</strong> Upload your Excel file and chat naturally to get comprehensive data analysis. 
-        The system automatically performs EDA, builds ML models, and generates organized Excel reports.
+        <strong>Welcome!</strong> Upload your data file and chat naturally to get comprehensive AI-powered analytics. 
+        The system automatically performs EDA, builds ML models, and generates organized reports with advanced insights.
     </div>
     """, unsafe_allow_html=True)
     

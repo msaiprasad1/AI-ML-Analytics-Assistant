@@ -12,8 +12,8 @@ import json
 from datetime import datetime
 
 app = FastAPI(
-    title="AI-ML-Excel-ChatBot",
-    description="An intelligent AI-powered machine learning assistant that analyzes Excel files through natural language conversations and generates comprehensive reports",
+    title="AI-ML-Analytics-Assistant",
+    description="An intelligent AI-powered machine learning analytics assistant that processes data files through natural language conversations and generates comprehensive insights using advanced ML algorithms",
     version="1.0.0"
 )
 
@@ -41,7 +41,7 @@ async def read_root():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Excel ML Chat Assistant</title>
+        <title>AI-ML-Analytics-Assistant</title>
         <style>
             body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -195,13 +195,13 @@ async def read_root():
     <body>
         <div class="container">
             <div class="header">
-                <h1>🤖 Excel ML Chat Assistant</h1>
-                <p>Upload your Excel file and chat naturally to get comprehensive data analysis</p>
+                <h1>🤖 AI-ML-Analytics-Assistant</h1>
+                <p>Upload your data file and chat naturally to get comprehensive AI-powered analytics</p>
             </div>
             
             <div class="content">
                 <div class="upload-section">
-                    <h3>📊 Upload Your Excel File</h3>
+                    <h3>📊 Upload Your Data File</h3>
                     <div class="file-input">
                         <input type="file" id="fileInput" accept=".xlsx,.xls" />
                     </div>
