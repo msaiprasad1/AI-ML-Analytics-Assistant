@@ -12,8 +12,8 @@ import json
 from datetime import datetime
 
 app = FastAPI(
-    title="Excel ML Chat Assistant",
-    description="A chat-driven machine learning assistant that analyzes Excel files and generates comprehensive reports",
+    title="AI-ML-Excel-ChatBot",
+    description="An intelligent AI-powered machine learning assistant that analyzes Excel files through natural language conversations and generates comprehensive reports",
     version="1.0.0"
 )
 
