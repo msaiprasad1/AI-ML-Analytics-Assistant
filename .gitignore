@@ -1,0 +1,41 @@
+# ExcelML-ChatBot
+
+A powerful chat-driven machine learning assistant that analyzes Excel files and generates comprehensive reports with natural language processing.
+
+## Features
+
+- **Natural Language Interface**: Chat naturally with your data
+- **Automated EDA**: Comprehensive exploratory data analysis
+- **ML Modeling**: Multiple regression models (Linear, Ridge, Lasso, Random Forest)
+- **Excel Integration**: Results automatically written to organized Excel sheets
+- **Dual Web Interfaces**: Both FastAPI and Streamlit interfaces
+- **Real-time Analysis**: Instant results with progress indicators
+
+## Quick Start
+
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set up environment: Create `.env` file with your OpenAI API key
+3. Run Streamlit: `streamlit run streamlit_app.py`
+4. Open: http://localhost:8501
+
+## Example Queries
+
+- "Run EDA on this dataset"
+- "Perform linear regression using Price as target"
+- "Show me feature correlations"
+- "Analyze missing values"
+- "Find outliers in the data"
+
+## Project Structure
+
+- `main.py` - FastAPI web application
+- `streamlit_app.py` - Streamlit web interface
+- `chat_agent.py` - LangChain + LLM integration
+- `eda.py` - EDA pipeline
+- `modeling.py` - ML models
+- `excel_writer.py` - Excel output
+- `test_system.py` - Test suite
+
+## License
+
+MIT License
