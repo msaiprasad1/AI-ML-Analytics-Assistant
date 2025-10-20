@@ -10,7 +10,7 @@ import os
 def demo_chat_queries():
     """Demonstrate various chat queries"""
     
-    print("Excel ML Chat Assistant Demo")
+    print("AI-ML-Analytics-Assistant Demo")
     print("=" * 50)
     
     # Use the sample housing data
