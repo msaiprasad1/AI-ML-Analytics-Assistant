@@ -8,7 +8,7 @@ A powerful chat-driven machine learning assistant that analyzes Excel files and 
 
 🔗 **GitHub Repository**: https://github.com/msaiprasad1/ExcelML-ChatBot
 
-## ✨ Features
+##  Features
 
 - **Natural Language Interface**: Chat naturally with your data (e.g., "analyze this dataset," "run linear regression," "show me feature correlation")
 - **Automated EDA**: Comprehensive exploratory data analysis with visualizations
@@ -17,7 +17,7 @@ A powerful chat-driven machine learning assistant that analyzes Excel files and 
 - **Dual Web Interfaces**: Both FastAPI and Streamlit interfaces for different use cases
 - **Real-time Analysis**: Instant results with progress indicators
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Clone from GitHub
 
@@ -62,7 +62,7 @@ Download the project as a ZIP file from GitHub and extract it.
    python test_system.py
    ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ExcelML-ChatBot/
@@ -84,7 +84,7 @@ ExcelML-ChatBot/
 └── visualizations/        # Generated charts and plots
 ```
 
-## 💬 Example Queries
+## Example Queries
 
 Try these natural language queries with your uploaded Excel files:
 
@@ -115,7 +115,7 @@ Try these natural language queries with your uploaded Excel files:
 - "Build a predictive model"
 - "Show feature importance"
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -134,7 +134,7 @@ You can modify the models used in `modeling.py`:
 - **Lasso Regression**: L1 regularization  
 - **Random Forest**: Ensemble method
 
-## 📊 Output Format
+##  Output Format
 
 The assistant generates comprehensive Excel reports with multiple sheets:
 
@@ -156,7 +156,7 @@ The assistant generates comprehensive Excel reports with multiple sheets:
 - **Residual_Analysis**: Error analysis
 - **Model_Summary**: Best model selection
 
-## 🎨 Web Interface Features
+##  Web Interface Features
 
 ### Streamlit Interface
 - **Modern UI**: Clean, responsive design with interactive charts
@@ -172,7 +172,7 @@ The assistant generates comprehensive Excel reports with multiple sheets:
 - **File Management**: Upload and download functionality
 - **Health Checks**: System monitoring endpoints
 
-## 🔍 API Endpoints (FastAPI)
+##  API Endpoints (FastAPI)
 
 ### Upload File
 ```http
@@ -248,13 +248,13 @@ Modify `excel_writer.py` to change formatting, add charts, or create custom shee
 - **Memory Usage**: Use data chunking for very large files
 - **API Limits**: Implement rate limiting for OpenAI API calls
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 - **API Keys**: Never commit API keys to version control
 - **File Uploads**: Validate file types and sizes
 - **Data Privacy**: Consider data sensitivity for cloud APIs
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - **Local LLM Support**: Integration with Ollama or HuggingFace
 - **More Models**: Support for classification, clustering, time series
@@ -263,7 +263,7 @@ Modify `excel_writer.py` to change formatting, add charts, or create custom shee
 - **Export Formats**: PDF reports, CSV exports
 - **Model Persistence**: Save and load trained models
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -271,11 +271,11 @@ Modify `excel_writer.py` to change formatting, add charts, or create custom shee
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **LangChain**: For the LLM integration framework
 - **OpenAI**: For the GPT models
