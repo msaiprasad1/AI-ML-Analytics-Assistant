@@ -1,12 +1,14 @@
-# ExcelML-ChatBot
+# AI-ML-Excel-ChatBot
 
-[![GitHub](https://img.shields.io/github/license/msaiprasad1/ExcelML-ChatBot)](https://github.com/msaiprasad1/ExcelML-ChatBot/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/msaiprasad1/AI-ML-Excel-ChatBot)](https://github.com/msaiprasad1/AI-ML-Excel-ChatBot/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.35+-red.svg)](https://streamlit.io/)
+[![AI](https://img.shields.io/badge/AI-Powered-green.svg)](https://openai.com/)
+[![ML](https://img.shields.io/badge/ML-Models-orange.svg)](https://scikit-learn.org/)
 
-A powerful chat-driven machine learning assistant that analyzes Excel files and generates comprehensive reports with natural language processing.
+An intelligent AI-powered machine learning assistant that analyzes Excel files through natural language conversations and generates comprehensive reports.
 
-🔗 **GitHub Repository**: https://github.com/msaiprasad1/ExcelML-ChatBot
+🔗 **GitHub Repository**: https://github.com/msaiprasad1/AI-ML-Excel-ChatBot
 
 ##  Features
 
@@ -22,8 +24,8 @@ A powerful chat-driven machine learning assistant that analyzes Excel files and 
 ### Option 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/msaiprasad1/ExcelML-ChatBot.git
-cd ExcelML-ChatBot
+git clone https://github.com/msaiprasad1/AI-ML-Excel-ChatBot.git
+cd AI-ML-Excel-ChatBot
 ```
 
 ### Option 2: Download ZIP
@@ -65,7 +67,7 @@ Download the project as a ZIP file from GitHub and extract it.
 ##  Project Structure
 
 ```
-ExcelML-ChatBot/
+AI-ML-Excel-ChatBot/
 │
 ├── main.py                 # FastAPI web application
 ├── streamlit_app.py        # Streamlit web interface
